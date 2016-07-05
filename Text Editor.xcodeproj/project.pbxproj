@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03ADE08A1D2C59C000FA99D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADE0891D2C59C000FA99D3 /* AppDelegate.swift */; };
+		03ADE08C1D2C59C000FA99D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADE08B1D2C59C000FA99D3 /* ViewController.swift */; };
+		03ADE08E1D2C59C000FA99D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ADE08D1D2C59C000FA99D3 /* Assets.xcassets */; };
+		03ADE0911D2C59C000FA99D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03ADE08F1D2C59C000FA99D3 /* Main.storyboard */; };
+		03ADE09C1D2C59C000FA99D3 /* Text_EditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADE09B1D2C59C000FA99D3 /* Text_EditorTests.swift */; };
+		03ADE0A71D2C59C000FA99D3 /* Text_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADE0A61D2C59C000FA99D3 /* Text_EditorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03ADE0981D2C59C000FA99D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03ADE07E1D2C59BF00FA99D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03ADE0851D2C59C000FA99D3;
+			remoteInfo = "Text Editor";
+		};
+		03ADE0A31D2C59C000FA99D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03ADE07E1D2C59BF00FA99D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03ADE0851D2C59C000FA99D3;
+			remoteInfo = "Text Editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03ADE0861D2C59C000FA99D3 /* Text Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ADE0891D2C59C000FA99D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03ADE08B1D2C59C000FA99D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03ADE08D1D2C59C000FA99D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03ADE0901D2C59C000FA99D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03ADE0921D2C59C000FA99D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03ADE0971D2C59C000FA99D3 /* Text EditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text EditorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ADE09B1D2C59C000FA99D3 /* Text_EditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_EditorTests.swift; sourceTree = "<group>"; };
+		03ADE09D1D2C59C000FA99D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03ADE0A21D2C59C000FA99D3 /* Text EditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text EditorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03ADE0A61D2C59C000FA99D3 /* Text_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_EditorUITests.swift; sourceTree = "<group>"; };
+		03ADE0A81D2C59C000FA99D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03ADE0831D2C59C000FA99D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ADE0941D2C59C000FA99D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ADE09F1D2C59C000FA99D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03ADE07D1D2C59BF00FA99D3 = {
+			isa = PBXGroup;
+			children = (
+				03ADE0881D2C59C000FA99D3 /* Text Editor */,
+				03ADE09A1D2C59C000FA99D3 /* Text EditorTests */,
+				03ADE0A51D2C59C000FA99D3 /* Text EditorUITests */,
+				03ADE0871D2C59C000FA99D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03ADE0871D2C59C000FA99D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03ADE0861D2C59C000FA99D3 /* Text Editor.app */,
+				03ADE0971D2C59C000FA99D3 /* Text EditorTests.xctest */,
+				03ADE0A21D2C59C000FA99D3 /* Text EditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03ADE0881D2C59C000FA99D3 /* Text Editor */ = {
+			isa = PBXGroup;
+			children = (
+				03ADE0891D2C59C000FA99D3 /* AppDelegate.swift */,
+				03ADE08B1D2C59C000FA99D3 /* ViewController.swift */,
+				03ADE08D1D2C59C000FA99D3 /* Assets.xcassets */,
+				03ADE08F1D2C59C000FA99D3 /* Main.storyboard */,
+				03ADE0921D2C59C000FA99D3 /* Info.plist */,
+			);
+			path = "Text Editor";
+			sourceTree = "<group>";
+		};
+		03ADE09A1D2C59C000FA99D3 /* Text EditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				03ADE09B1D2C59C000FA99D3 /* Text_EditorTests.swift */,
+				03ADE09D1D2C59C000FA99D3 /* Info.plist */,
+			);
+			path = "Text EditorTests";
+			sourceTree = "<group>";
+		};
+		03ADE0A51D2C59C000FA99D3 /* Text EditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03ADE0A61D2C59C000FA99D3 /* Text_EditorUITests.swift */,
+				03ADE0A81D2C59C000FA99D3 /* Info.plist */,
+			);
+			path = "Text EditorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03ADE0851D2C59C000FA99D3 /* Text Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03ADE0AB1D2C59C000FA99D3 /* Build configuration list for PBXNativeTarget "Text Editor" */;
+			buildPhases = (
+				03ADE0821D2C59C000FA99D3 /* Sources */,
+				03ADE0831D2C59C000FA99D3 /* Frameworks */,
+				03ADE0841D2C59C000FA99D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Text Editor";
+			productName = "Text Editor";
+			productReference = 03ADE0861D2C59C000FA99D3 /* Text Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03ADE0961D2C59C000FA99D3 /* Text EditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03ADE0AE1D2C59C000FA99D3 /* Build configuration list for PBXNativeTarget "Text EditorTests" */;
+			buildPhases = (
+				03ADE0931D2C59C000FA99D3 /* Sources */,
+				03ADE0941D2C59C000FA99D3 /* Frameworks */,
+				03ADE0951D2C59C000FA99D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03ADE0991D2C59C000FA99D3 /* PBXTargetDependency */,
+			);
+			name = "Text EditorTests";
+			productName = "Text EditorTests";
+			productReference = 03ADE0971D2C59C000FA99D3 /* Text EditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03ADE0A11D2C59C000FA99D3 /* Text EditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03ADE0B11D2C59C000FA99D3 /* Build configuration list for PBXNativeTarget "Text EditorUITests" */;
+			buildPhases = (
+				03ADE09E1D2C59C000FA99D3 /* Sources */,
+				03ADE09F1D2C59C000FA99D3 /* Frameworks */,
+				03ADE0A01D2C59C000FA99D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03ADE0A41D2C59C000FA99D3 /* PBXTargetDependency */,
+			);
+			name = "Text EditorUITests";
+			productName = "Text EditorUITests";
+			productReference = 03ADE0A21D2C59C000FA99D3 /* Text EditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03ADE07E1D2C59BF00FA99D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Paddy Reynolds";
+				TargetAttributes = {
+					03ADE0851D2C59C000FA99D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					03ADE0961D2C59C000FA99D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 03ADE0851D2C59C000FA99D3;
+					};
+					03ADE0A11D2C59C000FA99D3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 03ADE0851D2C59C000FA99D3;
+					};
+				};
+			};
+			buildConfigurationList = 03ADE0811D2C59BF00FA99D3 /* Build configuration list for PBXProject "Text Editor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03ADE07D1D2C59BF00FA99D3;
+			productRefGroup = 03ADE0871D2C59C000FA99D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03ADE0851D2C59C000FA99D3 /* Text Editor */,
+				03ADE0961D2C59C000FA99D3 /* Text EditorTests */,
+				03ADE0A11D2C59C000FA99D3 /* Text EditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03ADE0841D2C59C000FA99D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ADE08E1D2C59C000FA99D3 /* Assets.xcassets in Resources */,
+				03ADE0911D2C59C000FA99D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ADE0951D2C59C000FA99D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ADE0A01D2C59C000FA99D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03ADE0821D2C59C000FA99D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ADE08C1D2C59C000FA99D3 /* ViewController.swift in Sources */,
+				03ADE08A1D2C59C000FA99D3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ADE0931D2C59C000FA99D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ADE09C1D2C59C000FA99D3 /* Text_EditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03ADE09E1D2C59C000FA99D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ADE0A71D2C59C000FA99D3 /* Text_EditorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03ADE0991D2C59C000FA99D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03ADE0851D2C59C000FA99D3 /* Text Editor */;
+			targetProxy = 03ADE0981D2C59C000FA99D3 /* PBXContainerItemProxy */;
+		};
+		03ADE0A41D2C59C000FA99D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03ADE0851D2C59C000FA99D3 /* Text Editor */;
+			targetProxy = 03ADE0A31D2C59C000FA99D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03ADE08F1D2C59C000FA99D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03ADE0901D2C59C000FA99D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03ADE0A91D2C59C000FA99D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03ADE0AA1D2C59C000FA99D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03ADE0AC1D2C59C000FA99D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Text Editor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwnystudios.Text-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		03ADE0AD1D2C59C000FA99D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Text Editor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwnystudios.Text-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		03ADE0AF1D2C59C000FA99D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Text EditorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwnystudios.Text-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Editor.app/Contents/MacOS/Text Editor";
+			};
+			name = Debug;
+		};
+		03ADE0B01D2C59C000FA99D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Text EditorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwnystudios.Text-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Text Editor.app/Contents/MacOS/Text Editor";
+			};
+			name = Release;
+		};
+		03ADE0B21D2C59C000FA99D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Text EditorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwnystudios.Text-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Text Editor";
+			};
+			name = Debug;
+		};
+		03ADE0B31D2C59C000FA99D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Text EditorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pwnystudios.Text-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Text Editor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03ADE0811D2C59BF00FA99D3 /* Build configuration list for PBXProject "Text Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ADE0A91D2C59C000FA99D3 /* Debug */,
+				03ADE0AA1D2C59C000FA99D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03ADE0AB1D2C59C000FA99D3 /* Build configuration list for PBXNativeTarget "Text Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ADE0AC1D2C59C000FA99D3 /* Debug */,
+				03ADE0AD1D2C59C000FA99D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03ADE0AE1D2C59C000FA99D3 /* Build configuration list for PBXNativeTarget "Text EditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ADE0AF1D2C59C000FA99D3 /* Debug */,
+				03ADE0B01D2C59C000FA99D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		03ADE0B11D2C59C000FA99D3 /* Build configuration list for PBXNativeTarget "Text EditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03ADE0B21D2C59C000FA99D3 /* Debug */,
+				03ADE0B31D2C59C000FA99D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03ADE07E1D2C59BF00FA99D3 /* Project object */;
+}
