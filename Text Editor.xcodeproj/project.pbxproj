@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03308B991D2E95710061B1F0 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03308B981D2E95710061B1F0 /* Document.swift */; };
+		03A6B4861D2D88F60050B729 /* LineNumberRulerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A6B4851D2D88F60050B729 /* LineNumberRulerView.swift */; };
 		03ADE08A1D2C59C000FA99D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADE0891D2C59C000FA99D3 /* AppDelegate.swift */; };
 		03ADE08C1D2C59C000FA99D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03ADE08B1D2C59C000FA99D3 /* ViewController.swift */; };
 		03ADE08E1D2C59C000FA99D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03ADE08D1D2C59C000FA99D3 /* Assets.xcassets */; };
@@ -33,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03308B981D2E95710061B1F0 /* Document.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		03A6B4851D2D88F60050B729 /* LineNumberRulerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineNumberRulerView.swift; sourceTree = "<group>"; };
 		03ADE0861D2C59C000FA99D3 /* Text Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ADE0891D2C59C000FA99D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03ADE08B1D2C59C000FA99D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				03ADE08D1D2C59C000FA99D3 /* Assets.xcassets */,
 				03ADE08F1D2C59C000FA99D3 /* Main.storyboard */,
 				03ADE0921D2C59C000FA99D3 /* Info.plist */,
+				03A6B4851D2D88F60050B729 /* LineNumberRulerView.swift */,
+				03308B981D2E95710061B1F0 /* Document.swift */,
 			);
 			path = "Text Editor";
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 				TargetAttributes = {
 					03ADE0851D2C59C000FA99D3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = FB56C229HU;
 					};
 					03ADE0961D2C59C000FA99D3 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -252,7 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03308B991D2E95710061B1F0 /* Document.swift in Sources */,
 				03ADE08C1D2C59C000FA99D3 /* ViewController.swift in Sources */,
+				03A6B4861D2D88F60050B729 /* LineNumberRulerView.swift in Sources */,
 				03ADE08A1D2C59C000FA99D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,6 +484,7 @@
 				03ADE0AD1D2C59C000FA99D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03ADE0AE1D2C59C000FA99D3 /* Build configuration list for PBXNativeTarget "Text EditorTests" */ = {
 			isa = XCConfigurationList;
@@ -483,6 +493,7 @@
 				03ADE0B01D2C59C000FA99D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03ADE0B11D2C59C000FA99D3 /* Build configuration list for PBXNativeTarget "Text EditorUITests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +502,7 @@
 				03ADE0B31D2C59C000FA99D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
